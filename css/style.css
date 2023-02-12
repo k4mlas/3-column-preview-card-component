@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 95%);
+}
+
+.offers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.offer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 375px;
+  height: 1335px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.offer__card {
+  padding: 14%;
+  height: 445px;
+}
+.offer__card--one {
+  background-color: hsl(31deg, 77%, 52%);
+}
+.offer__card--two {
+  background-color: hsl(184deg, 100%, 22%);
+}
+.offer__card--three {
+  background-color: hsl(179deg, 100%, 13%);
+}
+.offer__img {
+  margin-bottom: 10%;
+}
+.offer__title {
+  margin-bottom: 10%;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 3.8em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+.offer__text {
+  margin-bottom: 10%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.7em;
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+.offer__btn {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.5em;
+  padding: 5px;
+  border: none;
+  background: none;
+  background-color: hsl(0deg, 0%, 95%);
+  border-radius: 50px;
+  padding: 5% 13%;
+  border: 3px solid transparent;
+  cursor: pointer;
+}
+.offer__btn--one {
+  color: hsl(31deg, 77%, 52%);
+}
+.offer__btn--two {
+  color: hsl(184deg, 100%, 22%);
+}
+.offer__btn--three {
+  color: hsl(179deg, 100%, 13%);
+}
+.offer__btn:hover {
+  background: none;
+  border: 3px solid hsla(0deg, 0%, 100%, 0.75);
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+
+.attribution {
+  margin-top: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+@media (min-width: 992px) {
+  .offers {
+    height: 100vh;
+  }
+  .offer {
+    flex-direction: row;
+    width: 903px;
+    height: 500px;
+  }
+  .offer__card {
+    padding: 4%;
+    width: 301px;
+    height: 500px;
+  }
+  .offer__img {
+    margin-bottom: 20%;
+  }
+  .offer__title {
+    margin-bottom: 20%;
+  }
+  .offer__text {
+    margin-bottom: 20%;
+  }
+}/*# sourceMappingURL=style.css.map */
