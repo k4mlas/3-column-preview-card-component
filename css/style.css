@@ -6,10 +6,6 @@
   padding: 0;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   background-color: hsl(0deg, 0%, 95%);
 }
@@ -27,14 +23,14 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 375px;
-  height: 1335px;
-  border-radius: 25px;
+  width: 23.438rem;
+  height: 83.438rem;
+  border-radius: 1.563rem;
   overflow: hidden;
 }
 .offer__card {
   padding: 14%;
-  height: 445px;
+  height: 27.813rem;
 }
 .offer__card--one {
   background-color: hsl(31deg, 77%, 52%);
@@ -51,27 +47,28 @@ body {
 .offer__title {
   margin-bottom: 10%;
   font-family: "Big Shoulders Display", cursive;
-  font-size: 3.8em;
+  font-size: 3rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: hsla(0deg, 0%, 100%, 0.75);
 }
 .offer__text {
-  margin-bottom: 10%;
+  margin-bottom: 20%;
   font-family: "Lexend Deca", sans-serif;
-  font-size: 1.7em;
+  font-size: 1rem;
   color: hsla(0deg, 0%, 100%, 0.75);
 }
 .offer__btn {
   font-family: "Lexend Deca", sans-serif;
-  font-size: 1.5em;
-  padding: 5px;
+  font-size: 1rem;
+  padding: 0.313rem;
   border: none;
   background: none;
   background-color: hsl(0deg, 0%, 95%);
-  border-radius: 50px;
+  text-decoration: none;
+  border-radius: 3.125rem;
   padding: 5% 13%;
-  border: 3px solid transparent;
+  border: 0.188rem solid transparent;
   cursor: pointer;
 }
 .offer__btn--one {
@@ -85,13 +82,13 @@ body {
 }
 .offer__btn:hover {
   background: none;
-  border: 3px solid hsla(0deg, 0%, 100%, 0.75);
+  border: 0.188rem solid hsla(0deg, 0%, 100%, 0.75);
   color: hsla(0deg, 0%, 100%, 0.75);
 }
 
 .attribution {
-  margin-top: 15px;
-  font-size: 15px;
+  margin-top: 0.938rem;
+  font-size: 0.938rem;
   text-align: center;
 }
 .attribution a {
@@ -104,13 +101,13 @@ body {
   }
   .offer {
     flex-direction: row;
-    width: 903px;
-    height: 500px;
+    width: 56.438rem;
+    height: 31.25rem;
   }
   .offer__card {
     padding: 4%;
-    width: 301px;
-    height: 500px;
+    width: 18.813rem;
+    height: 31.25rem;
   }
   .offer__img {
     margin-bottom: 20%;
@@ -119,6 +116,6 @@ body {
     margin-bottom: 20%;
   }
   .offer__text {
-    margin-bottom: 20%;
+    margin-bottom: 30%;
   }
 }/*# sourceMappingURL=style.css.map */

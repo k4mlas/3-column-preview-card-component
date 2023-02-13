@@ -8,9 +8,7 @@
 	padding: 0;
 }
 
-html {
-	font-size: 62.5%;
-}
+
 
 body {
 	background-color: $veryLightGray;
@@ -29,13 +27,13 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 375px;
-	height: 1335px;
-	border-radius: 25px;
+	width: 23.438rem;
+	height: 83.438rem;
+	border-radius: 1.563rem;
 	overflow: hidden;
 	&__card {
 		padding: 14%;
-		height: 445px;
+		height: 27.813rem;
 		&--one {
 			background-color: $brightOrange;
 		}
@@ -52,27 +50,28 @@ body {
 	&__title {
 		margin-bottom: 10%;
 		font-family: 'Big Shoulders Display', cursive;
-		font-size: 3.8em;
+		font-size: 3rem;
 		letter-spacing: 0.1em;
 		text-transform: uppercase;
 		color: $transparentWhite;
 	}
 	&__text {
-		margin-bottom: 10%;
+		margin-bottom: 20%;
 		font-family: 'Lexend Deca', sans-serif;
-		font-size: 1.7em;
+		font-size: 1rem;
 		color: $transparentWhite;
 	}
 	&__btn {
 		font-family: 'Lexend Deca', sans-serif;
-		font-size: 1.5em;
-		padding: 5px;
+		font-size: 1rem;
+		padding: 0.313rem;
 		border: none;
 		background: none;
 		background-color: $veryLightGray;
-		border-radius: 50px;
+		text-decoration: none;
+		border-radius: 3.125rem;
 		padding: 5% 13%;
-		border: 3px solid transparent;
+		border: 0.188rem solid transparent;
 		cursor: pointer;
 		&--one {
 			color: $brightOrange;
@@ -85,15 +84,15 @@ body {
 		}
 		&:hover {
 			background: none;
-			border: 3px solid $transparentWhite;
+			border: 0.188rem solid $transparentWhite;
 			color: $transparentWhite;
 		}
 	}
 }
 
 .attribution {
-	margin-top: 15px;
-	font-size: 15px;
+	margin-top: 0.938rem;
+	font-size: 0.938rem;
 	text-align: center;
 	a {
 		color: hsl(228, 45%, 44%);
@@ -107,12 +106,12 @@ body {
 
 	.offer {
 		flex-direction: row;
-		width: 903px;
-		height: 500px;
+		width: 56.438rem;
+		height: 31.25rem;
 		&__card {
 			padding: 4%;
-			width: 301px;
-			height: 500px;
+			width: 18.813rem;
+			height: 31.25rem;
 		}
 		&__img {
 			margin-bottom: 20%;
@@ -121,7 +120,7 @@ body {
 			margin-bottom: 20%;
 		}
 		&__text {
-			margin-bottom: 20%;
+			margin-bottom: 30%;
 		}
 	}
 }
