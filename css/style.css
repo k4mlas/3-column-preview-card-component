@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
 }
 
 .offers {
@@ -33,13 +33,13 @@ body {
   height: 27.813rem;
 }
 .offer__card--one {
-  background-color: hsl(31deg, 77%, 52%);
+  background-color: hsl(31, 77%, 52%);
 }
 .offer__card--two {
-  background-color: hsl(184deg, 100%, 22%);
+  background-color: hsl(184, 100%, 22%);
 }
 .offer__card--three {
-  background-color: hsl(179deg, 100%, 13%);
+  background-color: hsl(179, 100%, 13%);
 }
 .offer__img {
   margin-bottom: 10%;
@@ -50,13 +50,13 @@ body {
   font-size: 3rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: hsla(0deg, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
 }
 .offer__text {
   margin-bottom: 20%;
   font-family: "Lexend Deca", sans-serif;
   font-size: 1rem;
-  color: hsla(0deg, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
 }
 .offer__btn {
   font-family: "Lexend Deca", sans-serif;
@@ -64,7 +64,7 @@ body {
   padding: 0.313rem;
   border: none;
   background: none;
-  background-color: hsl(0deg, 0%, 95%);
+  background-color: hsl(0, 0%, 95%);
   text-decoration: none;
   border-radius: 3.125rem;
   padding: 5% 13%;
@@ -72,18 +72,18 @@ body {
   cursor: pointer;
 }
 .offer__btn--one {
-  color: hsl(31deg, 77%, 52%);
+  color: hsl(31, 77%, 52%);
 }
 .offer__btn--two {
-  color: hsl(184deg, 100%, 22%);
+  color: hsl(184, 100%, 22%);
 }
 .offer__btn--three {
-  color: hsl(179deg, 100%, 13%);
+  color: hsl(179, 100%, 13%);
 }
 .offer__btn:hover {
   background: none;
-  border: 0.188rem solid hsla(0deg, 0%, 100%, 0.75);
-  color: hsla(0deg, 0%, 100%, 0.75);
+  border: 0.188rem solid hsla(0, 0%, 100%, 0.75);
+  color: hsla(0, 0%, 100%, 0.75);
 }
 
 .attribution {
@@ -92,7 +92,7 @@ body {
   text-align: center;
 }
 .attribution a {
-  color: hsl(228deg, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
 
 @media (min-width: 992px) {
