@@ -1,6 +1,6 @@
 # Frontend Mentor - 3-column preview card component
 
-https://k4mlas.github.io/3-column-preview-card-component/
+I invite you to check my project by clicking on the link below: https://k4mlas.github.io/3-column-preview-card-component/
 
 ![Design preview for the 3-column preview card component coding challenge](./design/desktop-preview.jpg)
 
